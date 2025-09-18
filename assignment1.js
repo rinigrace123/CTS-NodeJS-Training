@@ -1,3 +1,11 @@
+// Assignment-1
+ 
+// Create a Product class with properties: name(immutable), price(mutable).
+// Create a ShoppingCart class with an array to store products.
+// In ShoppingCart  class , Add methods to add/remove products and calculate total price.
+// Create 3 instances and display the total.
+// Use either ES6 or ES5 syntax.
+
 class Product {
     #name;
     constructor(name,price){
@@ -45,4 +53,5 @@ cart.addProduct(product2);
 cart.addProduct(product3);
 cart.displaySum()
 cart.removeProduct('Fork')
+
 cart.displaySum()
