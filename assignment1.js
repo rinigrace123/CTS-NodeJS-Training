@@ -51,7 +51,8 @@ const cart = new ShoppingCart();
 cart.addProduct(product1);
 cart.addProduct(product2);
 cart.addProduct(product3);
-cart.displaySum()
-cart.removeProduct('Fork')
+cart.displaySum()//60
+cart.removeProduct('Fork')//removes Fork
 
-cart.displaySum()
+cart.displaySum()//50
+
